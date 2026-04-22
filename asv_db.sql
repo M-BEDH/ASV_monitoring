@@ -173,8 +173,7 @@ CREATE TABLE `users` (
 -- Déchargement des données de la table `users`
 --
 
-INSERT INTO `users` (`id`, `email`, `name`, `role`, `created_at`, `password`, `clinic_id`) VALUES
-('335c43d9-cf63-497d-880d-b13fc56917cd', 'mel.bms@pm.me', 'melissa bedhomme', 'super_admin', '2026-04-08 10:07:30', '$2y$13$Bix7Hoy1ZALY8dniCXjBQObSgXcIpU2be.OWicS8s5Egakg1RU91O', NULL);
+-- Aucun super admin dans le dump. Utiliser : bin/console app:create-super-admin
 
 -- --------------------------------------------------------
 
