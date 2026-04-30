@@ -45,4 +45,3 @@ docker compose up -d
 Le dossier `docs/` contient les livrables du projet : 
 - Diagrammes UML
 - Plan de tests
-- Plan de déploiement
